@@ -1,0 +1,18 @@
+
+s2v_reddit_2019_lg/
+
+s2v_reddit_2015_md/
+
+papers/
+
+paper_analysis/
+
+old shit/
+
+__pycache__/
+
+.idea/
+
+*.json
+
+*.txt
