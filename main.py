@@ -6,6 +6,7 @@ import preprocessing
 import most_similar
 from datetime import datetime
 import json
+import pandas as pd
 
 
 def main():
@@ -35,6 +36,8 @@ def main():
     simulation_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
     extended_simulation_list = ['simulation', 'simulation model', 'simulation tool', 'simulation framework', 'computer simulation', 'simulations', 'simulated reality', 'computational model', 'approximate solution', 'complex simulations', 'Verilator', 'simulation tools', 'SymbiYosys']
 
+
+    results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
 
 
 
@@ -107,10 +110,12 @@ def main():
 
             cleaned_matches = []
 
+            tmp_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
             # calculate frequency of unique hits and store in hit_dict dictionary
             for hit in unique_hits:
                 string_id=''
                 counter=0
+
                 for match_id, start, end in matches:
                     span = doc[start:end]  # The matched span
                     if ((span.text).lower() == hit):
@@ -120,10 +125,11 @@ def main():
                         text=span.text
                 match = Match(text, counter, string_id, paper)
                 cleaned_matches.append(match)
+                tmp_frame = tmp_frame.append({'phrase': match.hit_phrase, 'frequency': match.hit_counter, 'category':match.hit_category, 'paper': match.paper}, ignore_index=True)
 
-            print(hit_dict)
-            print(cleaned_matches)
+            results_frame = results_frame.append(tmp_frame)
 
+    results_frame.to_csv('results.csv')
 
 
 class Match(object):

@@ -1,0 +1,13 @@
+,phrase,frequency,category,paper
+0,simulation model,1,Simulation Phrases,paper.pdf
+1,optimization,38,Method Phrases,paper.pdf
+2,transportation,11,Problem Phrases,paper.pdf
+3,heuristic,3,Method Phrases,paper.pdf
+4,simulation,4,Simulation Phrases,paper.pdf
+5,procurement,1,Problem Phrases,paper.pdf
+6,algorithm,6,Method Phrases,paper.pdf
+7,earthquake,2,Disaster Phrases,paper.pdf
+0,training,1,Problem Phrases,paper2.pdf
+1,algorithm,2,Method Phrases,paper2.pdf
+2,coordination,1,Problem Phrases,paper2.pdf
+3,Transportation,29,Problem Phrases,paper2.pdf
