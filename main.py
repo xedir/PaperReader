@@ -18,8 +18,6 @@ def main():
     #wordlist = most_similar.most_similar_single("supply chain")
     #print(wordlist)
 
-
-
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
     extended_disaster_list = ['disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
@@ -41,15 +39,14 @@ def main():
 
     simulation_count_list = ["simulation", "simulate"]
 
-
-
+    #initialize results_frame where results are bundled for further processing/saving
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
-
 
 
     #iterate through papers in arr dict.
     for paper in arr:
         if paper.endswith('.pdf'):
+
             #get pdf text for each paper
             pdf_text = preprocessing.processPDF(path, paper)
 
@@ -122,9 +119,6 @@ def main():
             for hit in unique_hits:
                 hit_dict[hit] = 0
 
-
-            cleaned_matches = []
-
             tmp_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
             # calculate frequency of unique hits and store in hit_dict dictionary
             for hit in unique_hits:
@@ -139,11 +133,12 @@ def main():
                         string_id = nlp.vocab.strings[match_id]  # Get string representation
                         text=span.text
                 match = Match(text, counter, string_id, paper)
-                cleaned_matches.append(match)
                 tmp_frame = tmp_frame.append({'phrase': match.hit_phrase, 'frequency': match.hit_counter, 'category':match.hit_category, 'paper': match.paper}, ignore_index=True)
 
+            #append matches from one paper to results_frame containing all the matches from all papers
             results_frame = results_frame.append(tmp_frame)
 
+    #save results_frame as .csv file
     results_frame.to_csv('results.csv')
 
 
