@@ -18,23 +18,29 @@ def main():
     #wordlist = most_similar.most_similar_single("supply chain")
     #print(wordlist)
 
+
+
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['rapid onset', 'slow onset', 'fire', 'wildfire', 'earthquake', 'epidemics', 'flood', 'hurricane', 'typhoon', 'tsunami', 'onset', 'gradual onset', 'slower onset', 'fires', 'actual fire', 'wild fire', 'earthquakes', 'tsunami',
- 'pandemics', 'diseases', 'disease outbreaks', 'floods', 'flooding', 'hurricane', 'tropical storm', 'tornado', 'typhoons', 'typhoon', 'hurricane', 'tsunamis', 'tsunami', 'tidal wave', 'mass casualty incident', 'MCI']
+    extended_disaster_list = ['disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
 
     phase_list = ["mitigation", "preparedness", "response", "recovery"]
-    extended_phase_list = ['mitigation', 'preparedness', 'response', 'recovery', 'damage mitigation', 'other mitigation', 'physical mitigation', 'emergency preparedness', 'readiness', 'unpreparedness', 'initial response', 'recover', 'recovering']
+    extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
 
-    problem_list = ["evacuation","procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['evacuation', 'procurement', 'transportation', 'resource allocation', 'coordination', 'risk assessment', 'warehousing', 'training', 'evacuating', 'evacuations', 'evacuate', 'procurements', 'procurement process', 'transport', 'personal transportation', 'personal transport', 'resource distribution',
-     'Resource allocation', 'coordinating', 'coordinated', 'risk analysis', 'risk management', 'risk assessments', 'material handling', 'manufacturing', 'training']
+    problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
+    extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','training','transport','transportation',
+ 'warehouse work','warehousing']
 
     method_list=["algorithm","heuristic","optimization"]
-    extended_method_list = ['algorithm', 'heuristic', 'optimization', 'algorithms',  'heuristics', 'Bayesian', 'optimisation', 'optimizations']
+    extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization']
 
-    simulation_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
-    extended_simulation_list = ['simulation', 'simulation model', 'simulation tool', 'simulation framework', 'computer simulation', 'simulations', 'simulated reality', 'computational model', 'approximate solution', 'complex simulations', 'simulation tools'
+    simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
+    extended_simulation_outcome_list = ['simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution']
+
+    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event']
+
+    simulation_count_list = ["simulation", "simulate"]
+
 
 
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
@@ -50,40 +56,49 @@ def main():
             #load nlp pipeline
             nlp = spacy.load('en_core_web_lg')
 
-            #nlp.add_pipe('entity_ruler')
+            #nlp.add_pipe('lemmatizer')
 
             #create spacy doc from text with nlp pipeline
             doc = nlp(pdf_text)
 
             # create the PhraseMatcher object
-            matcher = PhraseMatcher(nlp.vocab, attr='LOWER')
+            matcher = PhraseMatcher(nlp.vocab, attr='LEMMA')
 
             # create and add patterns to matcher for individual keyword lists
             # convert the phrases into document object using nlp.make_doc to #speed up.
-            disaster_patterns = [nlp.make_doc(text) for text in disaster_list]
+            disaster_patterns = [nlp(text) for text in extended_disaster_list]
             # add the patterns to the matcher object without any callbacks
             matcher.add("Disaster Phrases", None, *disaster_patterns)
 
             # convert the phrases into document object using nlp.make_doc to #speed up.
-            phase_patterns = [nlp.make_doc(text) for text in phase_list]
+            phase_patterns = [nlp(text) for text in extended_phase_list]
             # add the patterns to the matcher object without any callbacks
             matcher.add("Phase Phrases", None, *phase_patterns)
 
             # convert the phrases into document object using nlp.make_doc to #speed up.
-            problem_patterns = [nlp.make_doc(text) for text in problem_list]
+            problem_patterns = [nlp(text) for text in extended_problem_list]
             # add the patterns to the matcher object without any callbacks
             matcher.add("Problem Phrases", None, *problem_patterns)
 
             # convert the phrases into document object using nlp.make_doc to #speed up.
-            method_patterns = [nlp.make_doc(text) for text in method_list]
+            method_patterns = [nlp(text) for text in extended_method_list]
             # add the patterns to the matcher object without any callbacks
             matcher.add("Method Phrases", None, *method_patterns)
 
             # convert the phrases into document object using nlp.make_doc to #speed up.
-            simulation_patterns = [nlp.make_doc(text) for text in simulation_list]
+            simulation_outcome_patterns = [nlp(text) for text in extended_simulation_outcome_list]
             # add the patterns to the matcher object without any callbacks
-            matcher.add("Simulation Phrases", None, *simulation_patterns)
+            matcher.add("Simulation Outcome Phrases", None, *simulation_outcome_patterns)
 
+            # convert the phrases into document object using nlp.make_doc to #speed up.
+            simulation_method_patterns = [nlp(text) for text in simulation_method_list]
+            # add the patterns to the matcher object without any callbacks
+            matcher.add("Simulation Method Phrases", None, *simulation_method_patterns)
+
+            # convert the phrases into document object using nlp.make_doc to #speed up.
+            simulation_count_patterns = [nlp(text) for text in simulation_count_list]
+            # add the patterns to the matcher object without any callbacks
+            matcher.add("Simulation Count Phrases", None, *simulation_count_patterns)
 
             print("results for paper: " + paper)
 
