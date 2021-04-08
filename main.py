@@ -22,7 +22,7 @@ def main():
 
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
+    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
 
     phase_list = ["mitigation", "preparedness", "response", "recovery"]
     extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
