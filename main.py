@@ -20,21 +20,21 @@ def main():
 
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['rapid onset', 'slow onset', 'fire', 'wildfire', 'earthquake', 'epidemics', 'flood', 'hurricane', 'typhoon', 'tsunami', 'onset', 'gradual onset', 'myocardial ischemia', 'sedative properties', 'interdose withdrawals', 'slower onset', 'fires', 'Fire', 'actual fire', 'wild fire', 'wildfyre', 'wildfire caches', 'earthquakes', 'massive earthquake', 'tsunami',
- 'pandemics', 'diseases', 'disease outbreaks', 'floods', 'massive flood', 'flooding', 'hurricane', 'tropical storm', 'tornado', 'typhoons', 'typhoon', 'hurricane', 'tsunamis', 'tsunami', 'tidal wave']
+    extended_disaster_list = ['rapid onset', 'slow onset', 'fire', 'wildfire', 'earthquake', 'epidemics', 'flood', 'hurricane', 'typhoon', 'tsunami', 'onset', 'gradual onset', 'slower onset', 'fires', 'actual fire', 'wild fire', 'earthquakes', 'tsunami',
+ 'pandemics', 'diseases', 'disease outbreaks', 'floods', 'flooding', 'hurricane', 'tropical storm', 'tornado', 'typhoons', 'typhoon', 'hurricane', 'tsunamis', 'tsunami', 'tidal wave', 'mass casualty incident', 'MCI']
 
     phase_list = ["mitigation", "preparedness", "response", "recovery"]
-    extended_phase_list = ['mitigation', 'preparedness', 'response', 'recovery', 'damage mitigation', 'other mitigation', 'physical mitigation', 'emergency preparedness', 'readiness', 'unpreparedness', 'initial response', 'respond', 'responce', 'recover', 'recovery process', 'recovering']
+    extended_phase_list = ['mitigation', 'preparedness', 'response', 'recovery', 'damage mitigation', 'other mitigation', 'physical mitigation', 'emergency preparedness', 'readiness', 'unpreparedness', 'initial response', 'recover', 'recovering']
 
     problem_list = ["evacuation","procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['evacuation', 'procurement', 'transportation', 'resource allocation', 'coordination', 'risk assessment', 'warehousing', 'training', 'evacuating', 'evacuations', 'evacuate', 'procurements', 'defence procurement', 'procurement process', 'transport', 'personal transportation', 'personal transport', 'resource distribution', 'market allocation',
-     'Resource allocation', 'coordinating', 'coordinated', 'co ordination', 'risk analysis', 'risk management', 'risk assessments', 'material handling', 'warehouse work', 'manufacturing', 'training', 'actual training', 'specific training']
+    extended_problem_list = ['evacuation', 'procurement', 'transportation', 'resource allocation', 'coordination', 'risk assessment', 'warehousing', 'training', 'evacuating', 'evacuations', 'evacuate', 'procurements', 'procurement process', 'transport', 'personal transportation', 'personal transport', 'resource distribution',
+     'Resource allocation', 'coordinating', 'coordinated', 'risk analysis', 'risk management', 'risk assessments', 'material handling', 'manufacturing', 'training']
 
     method_list=["algorithm","heuristic","optimization"]
-    extended_method_list = ['algorithm', 'heuristic', 'optimization', 'algorithm', 'algorithms', 'algorithim', 'heuristic', 'heuristics', 'Bayesian', 'optimisation', 'optimizations', 'performance optimization']
+    extended_method_list = ['algorithm', 'heuristic', 'optimization', 'algorithms',  'heuristics', 'Bayesian', 'optimisation', 'optimizations']
 
     simulation_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
-    extended_simulation_list = ['simulation', 'simulation model', 'simulation tool', 'simulation framework', 'computer simulation', 'simulations', 'simulated reality', 'computational model', 'approximate solution', 'complex simulations', 'Verilator', 'simulation tools', 'SymbiYosys']
+    extended_simulation_list = ['simulation', 'simulation model', 'simulation tool', 'simulation framework', 'computer simulation', 'simulations', 'simulated reality', 'computational model', 'approximate solution', 'complex simulations', 'simulation tools'
 
 
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
