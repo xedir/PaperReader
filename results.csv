@@ -1,0 +1,571 @@
+,phrase,frequency,category,paper
+0,Flooding,19,Disaster Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+1,agent-based,2,Simulation Method Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+2,response,6,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+3,transported,1,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+4,evacuation,1,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+5,System dynamics,17,Simulation Method Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+6,mitigate,2,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+7,mitigation,9,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+8,system dynamic,3,Simulation Method Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+9,agent based,2,Simulation Method Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+10,simulations,1,Simulation Count Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+11,respond,1,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+12,risk assessment,2,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+13,preparedness,2,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+14,storm,4,Disaster Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+15,recover,2,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+16,risk management,5,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+17,transport,7,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+18,simulates,1,Simulation Count Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+19,flood,72,Disaster Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+20,simulation,2,Simulation Count Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+21,floods,39,Disaster Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+22,discrete event,1,Simulation Method Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+23,transporting,1,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+24,responses,1,Phase Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+25,risk assessments,1,Problem Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+26,fire,1,Disaster Phrases,A coupled human and landscape conceptual model of risk and resilience in Swiss Alpine communities.pdf
+0,coordinating,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+1,flooding,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+2,coordinate,2,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+3,floodings,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+4,Agent-based,13,Simulation Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+5,response,4,Phase Phrases,A decision support system for coordinated disaster relief distribution.pdf
+6,coordination,38,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+7,transported,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+8,evacuation,2,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+9,flooded,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+10,coordinated,5,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+11,transports,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+12,algorithms,1,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+13,mitigation,1,Phase Phrases,A decision support system for coordinated disaster relief distribution.pdf
+14,hurricane,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+15,optimized,1,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+16,Transportation,5,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+17,evacuations,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+18,optimisation,1,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+19,optimize,2,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+20,transport,2,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+21,simulation models,1,Simulation Outcome Phrases,A decision support system for coordinated disaster relief distribution.pdf
+22,simulates,2,Simulation Count Phrases,A decision support system for coordinated disaster relief distribution.pdf
+23,trainings,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+24,optimization,30,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+25,allocation,2,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+26,heuristics,2,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+27,flood,3,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+28,simulation,26,Simulation Count Phrases,A decision support system for coordinated disaster relief distribution.pdf
+29,floods,2,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+30,training,2,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+31,transporting,1,Problem Phrases,A decision support system for coordinated disaster relief distribution.pdf
+32,earthquake,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+33,earthquakes,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+34,heuristic,2,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+35,Responses,2,Phase Phrases,A decision support system for coordinated disaster relief distribution.pdf
+36,algorithm,6,Method Phrases,A decision support system for coordinated disaster relief distribution.pdf
+37,fire,1,Disaster Phrases,A decision support system for coordinated disaster relief distribution.pdf
+0,coordinating,1,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+1,coordinate,3,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+2,agent-based,8,Simulation Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+3,algorithm,13,Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+4,response,54,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+5,coordination,49,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+6,system dynamics,2,Simulation Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+7,mitigate,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+8,simulate,3,Simulation Count Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+9,algorithms,4,Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+10,preparing,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+11,simulations,3,Simulation Count Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+12,transportation,1,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+13,preparedness,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+14,prepare,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+15,optimize,3,Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+16,allocates,1,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+17,simulation framework,1,Simulation Outcome Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+18,simulation models,2,Simulation Outcome Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+19,computational model,1,Simulation Outcome Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+20,optimization,5,Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+21,responding,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+22,allocation,18,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+23,Discrete event,2,Simulation Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+24,simulation,63,Simulation Count Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+25,allocated,1,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+26,training,2,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+27,multi-agent,5,Simulation Method Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+28,earthquake,6,Disaster Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+29,allocate,2,Problem Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+30,simulating,2,Simulation Count Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+31,responses,1,Phase Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+32,simulation model,2,Simulation Outcome Phrases,A disaster multiagent coordination simulation system to evaluate the design of a first-response team.pdf
+0,agent-based,4,Simulation Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+1,response,126,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+2,system dynamics,3,Simulation Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+3,simulation model,3,Simulation Outcome Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+4,simulate,5,Simulation Count Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+5,algorithms,13,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+6,mitigation,1,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+7,Agent based,1,Simulation Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+8,optimized,4,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+9,respond,2,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+10,coordinates,7,Problem Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+11,preparedness,4,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+12,prepare,1,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+13,optimize,1,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+14,recover,1,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+15,transport,1,Problem Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+16,simulates,2,Simulation Count Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+17,Optimization,100,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+18,recovery,2,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+19,Responding,1,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+20,simulation,46,Simulation Count Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+21,Bayesian,2,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+22,heuristic,1,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+23,responses,1,Phase Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+24,algorithm,26,Method Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+25,fire,2,Disaster Phrases,A dynamic simulation–optimization model for adaptive management of urban water distribution system contamination threats.pdf
+0,Coordinating,2,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+1,hurricanes,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+2,epidemics,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+3,response,5,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+4,recovered,1,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+5,evacuation,1,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+6,system dynamics,10,Simulation Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+7,mitigate,2,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+8,Optimizing,1,Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+9,simulate,1,Simulation Count Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+10,fires,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+11,System dynamic,7,Simulation Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+12,hurricane,4,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+13,tsunami,2,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+14,preparing,1,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+15,transportation,17,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+16,epidemic,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+17,risk assessment,1,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+18,preparedness,1,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+19,optimize,2,Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+20,transport,2,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+21,optimization,1,Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+22,recovery,13,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+23,allocation,10,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+24,flood,2,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+25,simulation,2,Simulation Count Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+26,floods,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+27,resource allocation,1,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+28,transporting,1,Problem Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+29,earthquake,5,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+30,earthquakes,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+31,Heuristic,2,Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+32,responses,3,Phase Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+33,algorithm,1,Method Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+34,Fire,1,Disaster Phrases,A framework for assessing the resilience of a disaster debris management system.pdf
+0,coordinating,1,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+1,flooding,3,Disaster Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+2,coordinate,1,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+3,agent-based,1,Simulation Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+4,response,1,Phase Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+5,coordination,2,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+6,system dynamics,2,Simulation Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+7,optimizing,3,Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+8,flooded,1,Disaster Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+9,simulate,3,Simulation Count Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+10,algorithms,1,Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+11,simulations,5,Simulation Count Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+12,risk assessment,1,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+13,optimize,1,Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+14,risk management,1,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+15,transport,1,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+16,simulates,2,Simulation Count Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+17,flood,16,Disaster Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+18,simulation,6,Simulation Count Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+19,floods,5,Disaster Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+20,Training,2,Problem Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+21,multi-agent,2,Simulation Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+22,Simulating,2,Simulation Count Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+23,optimizes,1,Method Phrases,A Gaming Exercise to Explore Problem-Solving versus Relational Activities for River Floodplain Management.pdf
+0,response,1,Phase Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+1,coordination,1,Problem Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+2,prepared,1,Phase Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+3,simulate,1,Simulation Count Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+4,fires,6,Disaster Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+5,agent based,3,Simulation Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+6,computational models,2,Simulation Outcome Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+7,simulates,3,Simulation Count Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+8,simulated,1,Simulation Count Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+9,trainings,1,Problem Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+10,computational model,6,Simulation Outcome Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+11,optimization,1,Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+12,simulation,31,Simulation Count Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+13,training,16,Problem Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+14,multi-agent,12,Simulation Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+15,Bayesian,2,Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+16,earthquake,3,Disaster Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+17,earthquakes,1,Disaster Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+18,simulating,1,Simulation Count Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+19,heuristic,1,Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+20,algorithm,6,Method Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+21,fire,50,Disaster Phrases,A general computational recognition primed decision model with multi-agent rescue simulation benchmark.pdf
+0,transport,1,Problem Phrases,A Lesson from Past Energy Crises [Historical].pdf
+1,transported,1,Problem Phrases,A Lesson from Past Energy Crises [Historical].pdf
+2,transportation,1,Problem Phrases,A Lesson from Past Energy Crises [Historical].pdf
+3,flood,3,Disaster Phrases,A Lesson from Past Energy Crises [Historical].pdf
+4,fire,1,Disaster Phrases,A Lesson from Past Energy Crises [Historical].pdf
+0,coordinate,4,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+1,Agent-based,22,Simulation Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+2,response,3,Phase Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+3,coordination,4,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+4,transported,1,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+5,evacuation,2,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+6,responded,1,Phase Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+7,simulate,4,Simulation Count Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+8,algorithms,4,Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+9,agent based,1,Simulation Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+10,preparing,1,Phase Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+11,simulations,6,Simulation Count Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+12,coordinates,1,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+13,transportation,1,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+14,prepare,1,Phase Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+15,simulation framework,1,Simulation Outcome Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+16,simulation models,1,Simulation Outcome Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+17,simulates,1,Simulation Count Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+18,simulated,1,Simulation Count Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+19,allocation,2,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+20,simulation frameworks,2,Simulation Outcome Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+21,simulation,41,Simulation Count Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+22,multi-agent,49,Simulation Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+23,Bayesian,1,Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+24,transporting,2,Problem Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+25,heuristic,3,Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+26,responses,3,Phase Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+27,agents based,1,Simulation Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+28,algorithm,1,Method Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+29,fire,2,Disaster Phrases,A multi-agent architecture for geosimulation of moving agents.pdf
+0,coordinate,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+1,agent-based,12,Simulation Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+2,algorithm,1,Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+3,simulation tool,1,Simulation Outcome Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+4,response,19,Phase Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+5,coordination,14,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+6,evacuation,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+7,system dynamics,1,Simulation Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+8,coordinated,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+9,simulate,4,Simulation Count Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+10,algorithms,1,Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+11,responds,1,Phase Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+12,agent based,2,Simulation Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+13,simulations,5,Simulation Count Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+14,transportation,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+15,computational models,1,Simulation Outcome Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+16,allocates,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+17,recovering,1,Phase Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+18,transport,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+19,simulated,1,Simulation Count Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+20,optimization,4,Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+21,recovery,2,Phase Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+22,allocation,2,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+23,simulation,19,Simulation Count Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+24,multi-agent,50,Simulation Method Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+25,resource allocation,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+26,earthquake,19,Disaster Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+27,allocate,1,Problem Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+28,earthquakes,8,Disaster Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+29,simulating,1,Simulation Count Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+30,simulation model,1,Simulation Outcome Phrases,A multi-agent framework for cloud-based management of collaborative robots.pdf
+0,flooding,1,Disaster Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+1,Monte Carlo,11,Simulation Method Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+2,response,3,Phase Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+3,Optimizing,2,Method Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+4,mitigate,1,Phase Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+5,simulations,2,Simulation Count Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+6,transportation,38,Problem Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+7,risk assessment,1,Problem Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+8,optimize,1,Method Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+9,recover,1,Phase Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+10,transport,2,Problem Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+11,simulated,1,Simulation Count Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+12,optimization,4,Method Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+13,computer simulation,4,Simulation Outcome Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+14,recovery,3,Phase Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+15,allocation,1,Problem Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+16,simulation,27,Simulation Count Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+17,earthquake,17,Disaster Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+18,simulating,2,Simulation Count Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+19,responses,1,Phase Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+20,simulation model,1,Simulation Outcome Phrases,A Multi-Scenario Probabilistic Simulation Approach for Critical Transportation Network Risk Assessment.pdf
+0,hurricanes,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+1,Monte Carlo,2,Simulation Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+2,response,6,Phase Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+3,evacuation,1,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+4,system dynamics,2,Simulation Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+5,fires,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+6,algorithms,2,Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+7,tornados,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+8,preparing,1,Phase Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+9,optimized,1,Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+10,respond,1,Phase Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+11,transportation,8,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+12,allocating,2,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+13,storms,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+14,simulated,2,Simulation Count Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+15,optimization,3,Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+16,allocation,12,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+17,simulation,8,Simulation Count Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+18,floods,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+19,allocated,1,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+20,multi-agent,1,Simulation Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+21,resource allocation,1,Problem Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+22,earthquake,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+23,earthquakes,1,Disaster Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+24,heuristic,5,Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+25,simulating,2,Simulation Count Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+26,responses,1,Phase Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+27,Algorithm,24,Method Phrases,A Novel Algorithm for Identifying and Analyzing Humanitarian Relief Logistics Problems  Studying Uncertainty on the Basis of Interaction with the Decision Maker.pdf
+0,risk analysis,2,Problem Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+1,flooding,25,Disaster Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+2,agent-based,1,Simulation Method Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+3,response,1,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+4,coordination,1,Problem Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+5,evacuation,1,Problem Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+6,system dynamics,18,Simulation Method Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+7,prepared,2,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+8,flooded,2,Disaster Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+9,simulate,2,Simulation Count Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+10,mitigation,6,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+11,responds,1,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+12,risk assessment,1,Problem Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+13,preparedness,1,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+14,recover,1,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+15,risk management,37,Problem Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+16,flood,131,Disaster Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+17,simulation,4,Simulation Count Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+18,floods,7,Disaster Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+19,Bayesian,3,Method Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+20,heuristic,1,Method Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+21,simulating,1,Simulation Count Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+22,Responses,2,Phase Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+23,simulation model,2,Simulation Outcome Phrases,A participatory system dynamics modeling approach to facilitate collaborative flood risk management  a case study in the Bradano River (Italy).pdf
+0,Flooding,1,Disaster Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+1,simulation tool,1,Simulation Outcome Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+2,response,41,Phase Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+3,responded,1,Phase Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+4,evacuation,1,Problem Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+5,simulate,1,Simulation Count Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+6,algorithms,2,Method Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+7,simulations,10,Simulation Count Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+8,respond,4,Phase Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+9,Transportation,1,Problem Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+10,storm,1,Disaster Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+11,transport,5,Problem Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+12,simulates,1,Simulation Count Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+13,optimization,1,Method Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+14,recovery,1,Phase Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+15,discrete event,1,Simulation Method Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+16,simulation,22,Simulation Count Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+17,slow-onset,1,Disaster Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+18,earthquake,1,Disaster Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+19,earthquakes,1,Disaster Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+20,algorithm,9,Method Phrases,A priori assessment of a smart-navigated unmanned aerial vehicle disaster cargo fleet.pdf
+0,algorithm,7,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+1,response,7,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+2,coordination,2,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+3,evacuation,27,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+4,optimizing,3,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+5,mitigate,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+6,simulate,2,Simulation Count Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+7,evacuated,5,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+8,mitigation,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+9,system dynamic,5,Simulation Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+10,optimized,1,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+11,respond,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+12,mitigating,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+13,risk assessment,1,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+14,preparedness,4,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+15,prepare,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+16,optimize,6,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+17,evacuate,1,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+18,optimization,44,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+19,responding,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+20,allocation,3,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+21,simulation,5,Simulation Count Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+22,transporting,1,Problem Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+23,earthquake,2,Disaster Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+24,simulating,2,Simulation Count Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+25,responses,1,Phase Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+26,simulation model,2,Simulation Outcome Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+27,optimizes,1,Method Phrases,A robust optimization approach for decontamination planning of emergency planning zone  Facility location and assignment plan.pdf
+0,Monte Carlo,4,Simulation Method Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+1,evacuating,3,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+2,response,28,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+3,coordination,1,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+4,transported,11,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+5,evacuation,18,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+6,mitigation,2,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+7,tsunami,1,Disaster Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+8,preparing,1,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+9,Optimized,2,Method Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+10,transportation,19,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+11,preparedness,7,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+12,evacuations,2,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+13,optimize,1,Method Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+14,transport,3,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+15,evacuate,1,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+16,optimization,26,Method Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+17,recovery,1,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+18,responding,1,Phase Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+19,allocation,9,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+20,flood,1,Disaster Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+21,simulation,8,Simulation Count Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+22,Allocated,3,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+23,resource allocation,1,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+24,transporting,1,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+25,earthquake,24,Disaster Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+26,allocate,1,Problem Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+27,earthquakes,11,Disaster Phrases,A robust optimization model for distribution and evacuation in the disaster response phase.pdf
+0,coordinate,2,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+1,agent-based,2,Simulation Method Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+2,response,10,Phase Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+3,Simulation frameworks,1,Simulation Outcome Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+4,simulated,3,Simulation Count Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+5,evacuation,6,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+6,evacuate,4,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+7,evacuations,1,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+8,Simulating,3,Simulation Count Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+9,responses,2,Phase Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+10,simulations,1,Simulation Count Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+11,computer simulation,1,Simulation Outcome Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+12,coordinates,1,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+13,Preparing,1,Phase Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+14,transportation,3,Problem Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+15,preparedness,3,Phase Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+16,prepare,1,Phase Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+17,simulation,20,Simulation Count Phrases,A Simulation Environment for the Dynamic Evaluation of Disaster Preparedness Policies and Interventions.pdf
+0,agent-based,2,Simulation Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+1,epidemics,2,Disaster Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+2,algorithm,1,Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+3,response,1,Phase Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+4,coordination,2,Problem Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+5,transported,1,Problem Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+6,prepared,1,Phase Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+7,discrete-event,6,Simulation Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+8,simulate,1,Simulation Count Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+9,simulations,2,Simulation Count Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+10,respond,2,Phase Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+11,epidemic,1,Disaster Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+12,optimize,1,Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+13,Simulation models,1,Simulation Outcome Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+14,simulated,3,Simulation Count Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+15,optimization,4,Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+16,Discrete event,4,Simulation Method Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+17,simulation,55,Simulation Count Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+18,disease,2,Disaster Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+19,responses,1,Phase Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+20,simulation model,14,Simulation Outcome Phrases,A simulation-based decision support system to prevent and predict strain situations in emergency department systems.pdf
+0,risk analysis,1,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+1,hurricanes,2,Disaster Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+2,Monte Carlo,1,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+3,agent-based,1,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+4,algorithm,10,Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+5,simulation tool,1,Simulation Outcome Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+6,response,2,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+7,transported,1,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+8,system dynamics,3,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+9,discrete-event,8,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+10,simulate,3,Simulation Count Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+11,mitigation,1,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+12,simulation tools,1,Simulation Outcome Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+13,Monte-Carlo,1,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+14,simulations,10,Simulation Count Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+15,respond,1,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+16,preparedness,3,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+17,prepare,2,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+18,optimisation,7,Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+19,storm,2,Disaster Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+20,optimise,4,Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+21,storms,2,Disaster Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+22,allocates,1,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+23,simulation models,3,Simulation Outcome Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+24,optimization,1,Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+25,computer simulation,2,Simulation Outcome Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+26,recovery,1,Phase Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+27,allocation,4,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+28,discrete event,7,Simulation Method Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+29,simulation,78,Simulation Count Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+30,training,1,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+31,resource allocation,1,Problem Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+32,diseases,1,Disaster Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+33,earthquakes,1,Disaster Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+34,simulation model,9,Simulation Outcome Phrases,A simulation-based study for managing hospital emergency department’s capacity in extreme events.pdf
+0,risk analysis,1,Problem Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+1,optimize,1,Method Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+2,system dynamic,1,Simulation Method Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+3,risk management,3,Problem Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+4,response,38,Phase Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+5,simulation models,1,Simulation Outcome Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+6,simulated,1,Simulation Count Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+7,System dynamics,18,Simulation Method Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+8,simulations,1,Simulation Count Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+9,simulate,1,Simulation Count Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+10,simulation model,1,Simulation Outcome Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+11,risk assessment,1,Problem Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+12,flood,1,Disaster Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+13,simulation,26,Simulation Count Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+14,fire,2,Disaster Phrases,A system dynamics model for risk perception of lay people in communication regarding risk of chemical incident.pdf
+0,simulation tool,16,Simulation Outcome Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+1,response,2,Phase Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+2,system dynamics,35,Simulation Method Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+3,mitigate,4,Phase Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+4,simulate,1,Simulation Count Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+5,systems dynamics,2,Simulation Method Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+6,algorithms,1,Method Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+7,simulations,1,Simulation Count Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+8,mitigating,1,Phase Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+9,transportation,86,Problem Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+10,prepare,1,Phase Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+11,optimisation,1,Method Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+12,transport,6,Problem Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+13,simulation models,2,Simulation Outcome Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+14,simulates,1,Simulation Count Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+15,simulated,1,Simulation Count Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+16,allocation,1,Problem Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+17,simulation,43,Simulation Count Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+18,Bayesian,1,Method Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+19,fire,1,Disaster Phrases,A system dynamics simulation tool for the management of extreme events in urban transportation systems.pdf
+0,Multi-agent,7,Simulation Method Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+1,manufacturing,1,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+2,coordinate,21,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+3,evacuating,3,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+4,agent-based,3,Simulation Method Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+5,evacuation,60,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+6,earthquakes,2,Disaster Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+7,simulations,6,Simulation Count Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+8,algorithm,2,Method Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+9,transportation,13,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+10,fires,1,Disaster Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+11,evacuations,1,Problem Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+12,simulation,41,Simulation Count Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+13,floods,2,Disaster Phrases,A Three-Dimensional Evacuation Simulation Using Digital Human Models With Precise Kinematic Joints.pdf
+0,hurricanes,3,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+1,flooding,1,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+2,evacuating,6,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+3,Agent-based,34,Simulation Method Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+4,algorithm,4,Method Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+5,Response,12,Phase Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+6,Wildfire,1,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+7,evacuation,135,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+8,wildfires,1,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+9,simulate,25,Simulation Count Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+10,hurricane,7,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+11,agent based,1,Simulation Method Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+12,simulations,3,Simulation Count Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+13,coordinates,1,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+14,Transportation,4,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+15,Evacuations,5,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+16,prepare,1,Phase Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+17,storm,3,Disaster Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+18,simulation models,4,Simulation Outcome Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+19,simulated,5,Simulation Count Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+20,evacuate,19,Problem Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+21,simulation,90,Simulation Count Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+22,Multi-agent,2,Simulation Method Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+23,Simulating,7,Simulation Count Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+24,responses,1,Phase Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf
+25,simulation Model,24,Simulation Outcome Phrases,A Two-level Agent-Based Model for Hurricane Evacuation in New Orleans.pdf

@@ -11,7 +11,7 @@ import pandas as pd
 
 def main():
 
-    path = "/Users/Nic/PycharmProjects/PaperReader/papers"
+    path = r"C:\Users\henke\Documents\PRpapers"
     arr = os.listdir(path)
 
     # alternative keyword source
