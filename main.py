@@ -22,14 +22,14 @@ def main():
 
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
+    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset', 'short-notice','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
 
     phase_list = ["mitigation", "preparedness", "response", "recovery"]
     extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
 
     problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
     extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
- 'warehouse work','warehousing', 'capacity','staff']
+ 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing']
 
     method_list=["algorithm","heuristic","optimization"]
     extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
