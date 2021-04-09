@@ -144,7 +144,7 @@ def main():
 
             results_frame = results_frame.append(tmp_frame)
 
-    results_frame.to_csv('results.csv')
+    results_frame.to_csv('C:/Users/henke/Documents/results.csv')
 
 
 class Match(object):
