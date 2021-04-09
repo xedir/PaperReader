@@ -28,18 +28,18 @@ def main():
     extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
 
     problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','training','transport','transportation',
- 'warehouse work','warehousing']
+    extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
+ 'warehouse work','warehousing', 'capacity','staff']
 
     method_list=["algorithm","heuristic","optimization"]
-    extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization']
+    extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
 
     simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
-    extended_simulation_outcome_list = ['simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution']
+    extended_simulation_outcome_list = ['simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis"]
 
-    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event']
+    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
 
-    simulation_count_list = ["simulation", "simulate"]
+    simulation_count_list = ["simulation", "simulate"]  
 
 
 
