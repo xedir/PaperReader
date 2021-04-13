@@ -29,7 +29,7 @@ def main():
 
     problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
     extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
- 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing']
+ 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication']
 
     method_list=["algorithm","heuristic","optimization"]
     extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
