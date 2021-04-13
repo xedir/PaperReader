@@ -1,9 +1,7 @@
-import PyPDF2
 import spacy
 from spacy.matcher import Matcher, PhraseMatcher
 import os
 import preprocessing
-import most_similar
 from datetime import datetime
 import json
 import pandas as pd
@@ -15,8 +13,8 @@ def main():
     arr = os.listdir(path)
 
     # alternative keyword source
-    #wordlist = most_similar.most_similar_single("supply chain")
-    #print(wordlist)
+    # wordlist = most_similar.most_similar_single("supply chain")
+    # print(wordlist)
 
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
@@ -29,7 +27,7 @@ def main():
     extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','training','transport','transportation',
  'warehouse work','warehousing']
 
-    method_list=["algorithm","heuristic","optimization"]
+    method_list = ["algorithm","heuristic","optimization"]
     extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization']
 
     simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
@@ -52,8 +50,6 @@ def main():
 
             #load nlp pipeline
             nlp = spacy.load('en_core_web_lg')
-
-            #nlp.add_pipe('lemmatizer')
 
             #create spacy doc from text with nlp pipeline
             doc = nlp(pdf_text)
