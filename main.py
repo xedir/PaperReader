@@ -9,7 +9,7 @@ import pandas as pd
 
 def main():
 
-    path = r"C:\Users\henke\Documents\PRpapers"
+    path = "/Users/Nic/PycharmProjects/PaperReader/papers"
     arr = os.listdir(path)
 
     # alternative keyword source
@@ -33,7 +33,7 @@ def main():
     simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
     extended_simulation_outcome_list = ['simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis"]
 
-    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
+    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation", "MILP", "mixed integer linear programming", "integer linear programming"]
 
     simulation_count_list = ["simulation", "simulate"]  
 

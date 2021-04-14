@@ -47,7 +47,14 @@ def most_similar_list(liste):
             temp.append(elem[0][0])
             print(elem[0][0])
     results = liste + temp
+    print(results)
     return results
 
 
-#simulation_list = ["simulation", "simulation model", "simulation tool"]
+# to run this script and get similar keywords insert a "seed" keyword list as shown below and run most_similar_list(liste)
+# extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
+#  'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing']
+# most_similar_list(extended_problem_list)
+
+# list = ['dog', 'cat', 'car']
+# most_similar_list(list)
