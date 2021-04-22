@@ -19,29 +19,28 @@ def main():
     #print(wordlist)
 
 
-
     # Define keyword lists
     disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset', 'short-notice','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire']
+    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset', 'short-notice','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire', 'hazard', 'multihazard','snowstorm', 'blizzard', 'rain', 'snow']
 
     phase_list = ["mitigation", "preparedness", "response", "recovery"]
     extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
 
     problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
- 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication']
+    extended_problem_list = ['volunteer','housing','locate','inventory', 'relief distribution','evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
+ 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication', 'infrastructure', 'resilience', 'community', 'fleet management']
 
     method_list=["algorithm","heuristic","optimization"]
     extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
 
     simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
-    extended_simulation_outcome_list = ['simulator','simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis", "performance measurement"]
+    extended_simulation_outcome_list = ['simulation experiment','simulator','simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis", "performance measurement"]
 
     simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
 
     simulation_count_list = ["simulation", "simulate"]  
 
-
+  
 
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
 
