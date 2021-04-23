@@ -8,6 +8,17 @@ from datetime import datetime
 import json
 import pandas as pd
 
+#load nlp pipeline
+nlp = spacy.load('en_core_web_lg')
+
+
+def createPattern(word_list, matcher, name):
+    # create and add patterns to matcher for individual keyword lists
+    # convert the phrases into document object using nlp.make_doc to #speed up.
+    patterns = [nlp(text) for text in word_list]
+    # add the patterns to the matcher object without any callbacks
+    matcher.add(name, None, patterns)
+    return matcher
 
 def main():
 
@@ -27,7 +38,7 @@ def main():
     extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
 
     problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['volunteer','housing','locate','inventory', 'relief distribution','evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
+    extended_problem_list = ['volunteer','behaviour','behavior','housing','locate','inventory', 'relief distribution','evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
  'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication', 'infrastructure', 'resilience', 'community', 'fleet management']
 
     method_list=["algorithm","heuristic","optimization"]
@@ -35,27 +46,19 @@ def main():
 
     simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
     extended_simulation_outcome_list = ['simulation experiment','simulator','simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis", "performance measurement"]
-
+  
     simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
 
     simulation_count_list = ["simulation", "simulate"]  
 
-  
-
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
-
-
 
     #iterate through papers in arr dict.
     for paper in arr:
         if paper.endswith('.pdf'):
+
             #get pdf text for each paper
             pdf_text = preprocessing.processPDF(path, paper)
-
-            #load nlp pipeline
-            nlp = spacy.load('en_core_web_lg')
-
-            #nlp.add_pipe('lemmatizer')
 
             #create spacy doc from text with nlp pipeline
             doc = nlp(pdf_text)
@@ -63,11 +66,7 @@ def main():
             # create the PhraseMatcher object
             matcher = PhraseMatcher(nlp.vocab, attr='LEMMA')
 
-            # create and add patterns to matcher for individual keyword lists
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            disaster_patterns = [nlp(text) for text in extended_disaster_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Disaster Phrases", None, *disaster_patterns)
+            matcher = createPattern(extended_disaster_list,matcher,"Disaster Phrases")
 
             # convert the phrases into document object using nlp.make_doc to #speed up.
             phase_patterns = [nlp(text) for text in extended_phase_list]
