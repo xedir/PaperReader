@@ -4,6 +4,7 @@ pacman::p_load(tidyverse, shiny,tsne, ggbiplot, GGally, stream, streamMOA)
 pap = read_csv("C:/Users/henke/Documents/results.csv")
 
 uni = unique(pap$paper)
+cat = unique(pap$category)
 
 ui = fluidPage(
   titlePanel("SLR - Word occurence"),
@@ -18,13 +19,15 @@ ui = fluidPage(
     mainPanel(
       
       tabsetPanel( type="tabs",
+                   id ="tabs",
                    tabPanel("Simulation Method",dataTableOutput('table5'),plotOutput('plot5')),
                    tabPanel("Phase",dataTableOutput('table0'),plotOutput('plot0')),
                    tabPanel("Disaster",dataTableOutput('table1'),plotOutput('plot1')),
                    tabPanel("Problem",dataTableOutput('table3'),plotOutput('plot3')),
                    tabPanel("Method",dataTableOutput('table2'),plotOutput('plot2')),
-                   tabPanel("Simulation Outcome",dataTableOutput('table4'),plotOutput('plot4')),
-                   tabPanel("Simulation Count",dataTableOutput('table6'),plotOutput('plot6'))
+                   tabPanel("Simulation Outcome",dataTableOutput('table4'),plotOutput('plot4')), 
+                   tabPanel("Simulation Count",dataTableOutput('table6'),plotOutput('plot6')),
+                   tabPanel("Test",dataTableOutput('table7'),plotOutput('plot7'))
       )
     )
     
@@ -90,6 +93,15 @@ server = function(input,output,session){
       mutate(phrase=factor(phrase, levels=phrase))
   })
   
+  dp7 <- reactive({
+    filter(pap,paper == input$paper)%>%
+      filter(category == "Test Phrases")%>%
+      select(c("phrase","frequency"))%>%
+      arrange(desc(frequency))%>%
+      mutate(phrase=factor(phrase, levels=phrase))
+  })
+  
+  
   output$paper0 <- renderText(substr(input$paper,1,nchar(input$paper)-4))
   
   output$table0 <- renderDataTable(dp0())
@@ -126,6 +138,11 @@ server = function(input,output,session){
   output$table6 <- renderDataTable(dp6())
   output$plot6 <- renderPlot(
     ggplot(dp6(), aes(x=phrase, y=frequency, fill=phrase))+geom_col()+coord_flip()+theme(legend.position = "none", axis.title.y=element_blank())
+  )
+  
+  output$table7 <- renderDataTable(dp7())
+  output$plot7 <- renderPlot(
+    ggplot(dp7(), aes(x=phrase, y=frequency, fill=phrase))+geom_col()+coord_flip()+theme(legend.position = "none", axis.title.y=element_blank())
   )
 
 }

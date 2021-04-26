@@ -1,104 +1,93 @@
-import PyPDF2
+from catalogue import create
 import spacy
 from spacy.matcher import Matcher, PhraseMatcher
 import os
 import preprocessing
-import most_similar
 from datetime import datetime
-import json
 import pandas as pd
 
 #load nlp pipeline
 nlp = spacy.load('en_core_web_lg')
 
+class Match(object):
+    hit_phrase = ''
+    hit_counter = ''
+    hit_category = ''
+    paper=''
+
+    def __init__(self, phrase, counter, category, paper):
+        self.hit_phrase = phrase
+        self.hit_counter = counter
+        self.hit_category = category
+        self.paper = paper
+
+    def __str__(self):
+        return '[Phrase: ' + self.hit_phrase + ", Frequency: " + str(self.hit_counter) + ", Category: " + self.hit_category + ', '+ self.paper+"]"
+
+    def __repr__(self):
+        return '[Phrase: ' + self.hit_phrase + ", Frequency: " + str(self.hit_counter) + ", Category: " + self.hit_category+ ', '+ self.paper+"]"
+
+def getPhrasesHardcoded():
+    # Define keyword lists / hardcoded, new version in getPhrases()
+
+    disaster_list = ["Disaster Phrases",'disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset', 'short-notice','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire', 'hazard', 'multihazard','snowstorm', 'blizzard', 'rain', 'snow']
+
+    phase_list = ["Phase Phrases",'mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
+
+    problem_list = ["Problem Phrases",'cooperation','volunteer','behaviour','behavior','housing','locate','inventory', 'relief distribution','evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
+ 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication', 'infrastructure', 'resilience', 'community', 'fleet management']
+
+    method_list = ["Method Phrases",'algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
+
+    simulation_outcome_list = ["Simulation Outcome Phrases",'simulation experiment','simulator','simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis", "performance measurement"]
+  
+    simulation_method_list = ["Simulation Method Phrases",'Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
+
+    count_list = ["Simulation Count Phrases","simulation", "simulate"] 
+
+    phrases = [disaster_list,phase_list, problem_list, method_list, simulation_outcome_list, simulation_method_list,count_list ]
+
+    return phrases
+    
+def getPhrases():
+    phrases_df = pd.read_csv("phrases.csv", encoding='utf-8', sep=";")
+    phrases = []
+    for column in phrases_df:
+        phrases.append([column] + phrases_df[column].dropna().tolist())
+    return phrases
 
 def createPattern(word_list, matcher, name):
     # create and add patterns to matcher for individual keyword lists
     # convert the phrases into document object using nlp.make_doc to #speed up.
     patterns = [nlp(text) for text in word_list]
     # add the patterns to the matcher object without any callbacks
-    matcher.add(name, None, patterns)
-    return matcher
+    matcher.add(name, None, *patterns)
 
 def main():
 
     path = r"C:\Users\henke\Documents\PRpapers"
-    arr = os.listdir(path)
-
-    # alternative keyword source
-    #wordlist = most_similar.most_similar_single("supply chain")
-    #print(wordlist)
-
-
-    # Define keyword lists
-    disaster_list = ["rapid onset", "slow onset", "fire", "wildfire", "earthquake", "epidemics", "flood", "hurricane", "typhoon", "tsunami"]
-    extended_disaster_list = ['disaster', 'crisis','MCI','mass casualty incident','mass-casualty incident', 'accident','disease','earthquake','epidemic','fire','flood','flooding','gradual onset','hurricane','pandemic','quick onset','quick-onset','rapid onset','rapid-onset', 'short-notice','slow onset','slow-onset','slower onset','storm','tidal wave','tornado','tsunami','typhoon','wildfire', 'hazard', 'multihazard','snowstorm', 'blizzard', 'rain', 'snow']
-
-    phase_list = ["mitigation", "preparedness", "response", "recovery"]
-    extended_phase_list = ['mitigation','mitigate','recover','recovery','preparedness','readiness','responce','response','respond','prepare']
-
-    problem_list = ["evacuation",'evacuate',"procurement","transportation","resource allocation","coordination","risk assessment","warehousing","training"]
-    extended_problem_list = ['volunteer','behaviour','behavior','housing','locate','inventory', 'relief distribution','evacuation','procurement','allocate','allocation','coordinate','coordination','evacuate','manufacture','market allocation','material handling','personal transport','personal transportation','procure','procurement process','resource allocation','resource distribution','risk analysis','risk assessment','risk management','risk','training','transport','transportation',
- 'warehouse work','warehousing', 'capacity','staff', 'information collection','information sharing', 'relief supplies', 'communication', 'infrastructure', 'resilience', 'community', 'fleet management']
-
-    method_list=["algorithm","heuristic","optimization"]
-    extended_method_list = ['algorithm','heuristic','Bayesian','optimize','optimise','optimisation','optimization', "approximate", "approximation"]
-
-    simulation_outcome_list = ["simulation", "simulation model", "simulation tool", "simulation framework"]
-    extended_simulation_outcome_list = ['simulation experiment','simulator','simulation model','simulation tool','computer simulation','computational model','complex simulation','simulation framework','simulated reality','approximate solution', "scenario analysis", "best-case scenario", "worst-case scenario", "sensitivity analysis", "performance measurement"]
-  
-    simulation_method_list = ['Monte Carlo','Monte-Carlo','Agent-based','Agent based','Multi agent','Multi-agent','System Dynamic','System-Dynamic','Discrete Event','Discrete-Event', "traffic simulation"]
-
-    simulation_count_list = ["simulation", "simulate"]  
-
+    arr = os.listdir(path)    
     results_frame = pd.DataFrame(columns=['phrase','frequency','category', 'paper'])
+
+    # create pattern for search phrases
+    phrases = getPhrases()
+
+    # create the PhraseMatcher object and populate it
+    matcher = PhraseMatcher(nlp.vocab, attr='LEMMA')
+    for p in phrases:
+        createPattern(p,matcher,p[0])
 
     #iterate through papers in arr dict.
     for paper in arr:
         if paper.endswith('.pdf'):
-
+            
             #get pdf text for each paper
             pdf_text = preprocessing.processPDF(path, paper)
 
             #create spacy doc from text with nlp pipeline
             doc = nlp(pdf_text)
 
-            # create the PhraseMatcher object
-            matcher = PhraseMatcher(nlp.vocab, attr='LEMMA')
-
-            matcher = createPattern(extended_disaster_list,matcher,"Disaster Phrases")
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            phase_patterns = [nlp(text) for text in extended_phase_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Phase Phrases", None, *phase_patterns)
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            problem_patterns = [nlp(text) for text in extended_problem_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Problem Phrases", None, *problem_patterns)
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            method_patterns = [nlp(text) for text in extended_method_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Method Phrases", None, *method_patterns)
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            simulation_outcome_patterns = [nlp(text) for text in extended_simulation_outcome_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Simulation Outcome Phrases", None, *simulation_outcome_patterns)
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            simulation_method_patterns = [nlp(text) for text in simulation_method_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Simulation Method Phrases", None, *simulation_method_patterns)
-
-            # convert the phrases into document object using nlp.make_doc to #speed up.
-            simulation_count_patterns = [nlp(text) for text in simulation_count_list]
-            # add the patterns to the matcher object without any callbacks
-            matcher.add("Simulation Count Phrases", None, *simulation_count_patterns)
-
-            print("results for paper: " + paper)
+            print(("results for paper: " + paper).encode("utf-8"))
 
             # call matcher on doc and store results in matches
             matches = matcher(doc)
@@ -145,25 +134,6 @@ def main():
     results_frame.to_csv('C:/Users/henke/Documents/results.csv')
 
 
-class Match(object):
-    hit_phrase = ''
-    hit_counter = ''
-    hit_category = ''
-    paper=''
-
-    def __init__(self, phrase, counter, category, paper):
-        self.hit_phrase = phrase
-        self.hit_counter = counter
-        self.hit_category = category
-        self.paper = paper
-
-    def __str__(self):
-        return '[Phrase: ' + self.hit_phrase + ", Frequency: " + str(self.hit_counter) + ", Category: " + self.hit_category + ', '+ self.paper+"]"
-
-    def __repr__(self):
-        return '[Phrase: ' + self.hit_phrase + ", Frequency: " + str(self.hit_counter) + ", Category: " + self.hit_category+ ', '+ self.paper+"]"
-
-
 if __name__ == "__main__":
     start = datetime.now()
     main()
@@ -173,3 +143,4 @@ if __name__ == "__main__":
     duration = after-start
     print("total runtime was: ")
     print(duration)
+
