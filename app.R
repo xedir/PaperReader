@@ -4,7 +4,7 @@ pacman::p_load(tidyverse, shiny,tsne, ggbiplot, GGally, stream, streamMOA)
 pap = read_csv("C:/Users/henke/Documents/results.csv")
 
 uni = unique(pap$paper)
-cat = unique(pap$category)
+cat = sort(unique(pap$category))
 
 ui = fluidPage(
   titlePanel("SLR - Word occurence"),
@@ -27,7 +27,15 @@ ui = fluidPage(
                    tabPanel("Method",dataTableOutput('table2'),plotOutput('plot2')),
                    tabPanel("Simulation Outcome",dataTableOutput('table4'),plotOutput('plot4')), 
                    tabPanel("Simulation Count",dataTableOutput('table6'),plotOutput('plot6')),
-                   tabPanel("Test",dataTableOutput('table7'),plotOutput('plot7'))
+                   tabPanel("Filter",
+                            selectInput(inputId = "category", label = "Title", choices = cat),
+                            dataTableOutput('table7')),
+                   tabPanel("Filter Multiple Words",
+                            selectInput(inputId = "category1", label = "Category 1", choices = cat),
+                            textInput(inputId="phrase1", label="Phrase 1"),
+                            selectInput(inputId = "category2", label = "Category 2", choices = cat),
+                            textInput(inputId="phrase2", label="Phrase 2"),
+                            dataTableOutput('table8'))
       )
     )
     
@@ -95,10 +103,20 @@ server = function(input,output,session){
   
   dp7 <- reactive({
     filter(pap,paper == input$paper)%>%
-      filter(category == "Test Phrases")%>%
+      filter(category == input$category)%>%
       select(c("phrase","frequency"))%>%
       arrange(desc(frequency))%>%
       mutate(phrase=factor(phrase, levels=phrase))
+  })
+  
+  dp8 <- reactive({
+    a = filter(pap,category == input$category1)%>%
+      filter(str_detect(phrase, input$phrase1))%>%
+      select(c("paper","frequency","phrase"))
+    b = filter(pap,category == input$category2)%>%
+      filter((str_detect(phrase, input$phrase2)))%>%
+      select(c("paper","frequency","phrase"))
+    inner_join(a,b,by = "paper")
   })
   
   
@@ -141,9 +159,8 @@ server = function(input,output,session){
   )
   
   output$table7 <- renderDataTable(dp7())
-  output$plot7 <- renderPlot(
-    ggplot(dp7(), aes(x=phrase, y=frequency, fill=phrase))+geom_col()+coord_flip()+theme(legend.position = "none", axis.title.y=element_blank())
-  )
+  
+  output$table8 <- renderDataTable(dp8())
 
 }
 
